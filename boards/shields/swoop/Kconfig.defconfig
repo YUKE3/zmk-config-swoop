@@ -1,4 +1,4 @@
-if SHIELD_SWOOP_LEFT
+if SHIELD_SWOOP_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Swoop"
