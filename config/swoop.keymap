@@ -5,12 +5,12 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        ALPHA {
             bindings = <
-&kp Q  &kp W  &kp F       &kp P      &kp B        &kp J      &kp L            &kp U       &kp Y    &kp SQT
-&kp A  &kp R  &kp S       &kp T      &kp G        &kp M      &kp N            &kp E       &kp I    &kp O
-&kp Z  &kp X  &kp C       &kp D      &kp V        &kp K      &kp H            &kp COMMA   &kp DOT  &kp FSLH
-              &kp ESCAPE  &kp SPACE  &kp LSHFT    &kp ENTER  &lt 1 BACKSPACE  &kp DELETE
+&kp Q           &kp W               &kp F           &kp P             &kp B        &kp J      &kp L              &kp U            &kp Y                &kp SQT
+&mt LEFT_GUI A  &mt LEFT_CONTROL R  &mt LEFT_ALT S  &mt LEFT_SHIFT T  &kp G        &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &mt RIGHT_GUI O
+&kp Z           &kp X               &kp C           &kp D             &kp V        &kp K      &kp H              &kp COMMA        &kp DOT              &kp FSLH
+                                    &kp ESCAPE      &kp SPACE         &kp LSHFT    &kp ENTER  &lt 1 BACKSPACE    &kp DELETE
             >;
         };
 
